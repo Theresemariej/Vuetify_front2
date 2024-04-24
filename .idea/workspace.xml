@@ -6,13 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a6a7a17f-1429-4822-99f2-33f018609f0e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_ptut/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_ptut/src/components/AppBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/src/components/AppBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_ptut/src/pages/PageDrapeauxRouges.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/src/pages/PageDrapeauxRouges.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_ptut/src/pages/PageHints.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/src/pages/PageHints.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_ptut/src/pages/PageNystagamusSpontanne.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/src/pages/PageNystagamusSpontanne.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_ptut/src/pages/PageUrgence.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/src/pages/PageUrgence.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_ptut/src/pages/PageVertigesMaintenant.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/src/pages/PageVertigesMaintenant.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_ptut/src/pages/depart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_ptut/src/pages/depart.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,6 +76,7 @@
       <updated>1713948674727</updated>
       <workItem from="1713948676180" duration="103000" />
       <workItem from="1713949962866" duration="6148000" />
+      <workItem from="1713970551764" duration="6412000" />
     </task>
     <servers />
   </component>
@@ -88,8 +89,13 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/front_ptut/src/pages/PageHints.vue</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/front_ptut/src/pages/PageDrapeauxRouges.vue</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

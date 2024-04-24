@@ -11,7 +11,9 @@
     </template>
 
     <!-- titre de l'application -->
+    <div class="centre">
     <v-app-bar-title>VERTI'APP</v-app-bar-title>
+    </div>
     <!-- menu de droite -->
     <template v-slot:append>
       <v-btn id="menu-droite" icon="mdi-cog"></v-btn>
@@ -35,6 +37,8 @@
 </script>
 
 <style>
-
+.centre{
+  text-align: center;
+}
 </style>
 

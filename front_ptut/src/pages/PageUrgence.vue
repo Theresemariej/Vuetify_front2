@@ -4,20 +4,18 @@
       align="center"
       justify="center">
       <v-col>
+        <div class="centre">
         <VertigoAppBar></VertigoAppBar>
-        <h1>Diagnostique:</h1>
+        <h1>Diagnostic:</h1>
         <br><br>
         <h3 style="font-family: Manjari; color: #20285F">{{verti.libelle}}</h3>
 
         <br><br><br><br><br><br><br><br><br><br>
 
-        <v-row
-          align="end" >
           <div class = esp></div><div class = esp></div><div class = esp></div>
           <v-btn rounded="xl" to="/PageDrapeauxRouges">retour</v-btn>
-        </v-row>
 
-
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -65,5 +63,8 @@ export default {
 </script>
 
 <style>
+.centre{
+  text-align: center;
+}
 </style>
 

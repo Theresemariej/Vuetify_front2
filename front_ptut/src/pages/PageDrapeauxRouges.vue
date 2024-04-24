@@ -5,13 +5,13 @@
       align="center"
       justify="center">
       <v-col>
+        <div class="centre">
         <VertigoAppBar></VertigoAppBar>
         <br><br><br>
         <h3 style="font-family: Manjari; color: #20285F">{{verti.libelle}}</h3>
         <br><br><br>
 
         <v-btn-toggle color="deep-purple-accent-3">
-          <div class = esp></div><div class = esp></div><div class = esp></div>
           <v-btn class="bouton"
                  size="x-large"
                  rounded="xl"
@@ -33,13 +33,13 @@
 
         <br><br><br><br><br><br><br>
 
-        <v-row
-          align="end" >
-          <div class = esp></div><div class = esp></div><div class = esp></div>
-          <v-btn rounded="xl" to="/">retour</v-btn>
+          <v-btn-toggle color="deep-purple-accent-3">
+          <v-btn rounded="xl" to="/depart">retour</v-btn>
           <div class = esp></div>
           <v-btn rounded="xl" to="/Urgence">passer</v-btn>
-        </v-row>
+          </v-btn-toggle>
+
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -81,15 +81,18 @@ export default {
 </script>
 
 <style>
-.esp{
-  width: 10px;
-}
+
 .bouton{
   background-color: #CFCFCF;
   color: #20285F;
   border: 4px solid #20285F;
   font-size: 30px;
 }
-
+.centre{
+  text-align: center;
+}
+.esp{
+  width: 10px;
+}
 </style>
 
