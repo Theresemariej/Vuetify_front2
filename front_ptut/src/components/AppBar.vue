@@ -1,47 +1,36 @@
+<!--  la barre de navigation en haut de l'application -->
 <template>
-  <v-app-bar :elevation="24" rounded>
+  <v-app-bar
+    color=#20285F
+    density="dense"
+  >
+
+    <!-- menu de gauche -->
     <template v-slot:prepend>
-      <v-app-bar-nav-icon @click="toggleDropdown"></v-app-bar-nav-icon>
+      <v-btn id="historique" icon="mdi-dots-vertical"></v-btn>
     </template>
 
-    <v-app-bar-title>Tour du monde</v-app-bar-title>
-
+    <!-- titre de l'application -->
+    <v-app-bar-title>VERTI'APP</v-app-bar-title>
+    <!-- menu de droite -->
     <template v-slot:append>
-      <v-btn icon="mdi-heart"></v-btn>
+      <v-btn id="menu-droite" icon="mdi-cog"></v-btn>
+      <!-- le menu s'affichera qd l'élément d'id 'menu-droite' ici 'v-btn' sera activé-->
+      <v-menu activator="#menu-droite">
+        <v-list>
+          <v-list-item to="/PageDrapeauxRouges"> <!-- navigation vers la page "/" -->
+            <v-list-item-title>Recommencer</v-list-item-title>
+          </v-list-item>
+          <v-list-item to="/"> <!-- navigation vers la page "/" -->
+            <v-list-item-title>Arrêter</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </template>
   </v-app-bar>
 
-  <!-- Liste déroulante des pages -->
-  <v-navigation-drawer app  expand-on-hover
-                       rail v-model="isDropdownOpen">
-    <v-list>
-      <v-list-item v-for="item in chemins" :key="item.title" :to="item.to">
-        <template v-slot:prepend>
-          <v-icon>{{ item.icon }}</v-icon>
-        </template>
-        <v-list-item-title>{{ item.title }}</v-list-item-title>
-      </v-list-item>
-    </v-list>
-  </v-navigation-drawer>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      isDropdownOpen: true,
-      chemins: [
-        { title: 'Accueil', to: '/', icon:"mdi-home" },
-        { title: 'Page Pays', to: '/pageCountry', icon:"mdi-flag" },
-        { title: 'Page Ville', to: '/pageCity', icon: "mdi-spa"}
-      ]
-    };
-  },
-  methods: {
-    toggleDropdown() {
-      console.log(this.isDropdownOpen)
-      this.isDropdownOpen = !this.isDropdownOpen;
-    }
-  }
-}
+<script setup>
+
 </script>
