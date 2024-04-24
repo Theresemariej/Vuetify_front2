@@ -6,7 +6,18 @@
       <v-col>
         <VertigoAppBar></VertigoAppBar>
         <h1>Diagnostique:</h1>
+        <br><br>
         <h3 style="font-family: Manjari; color: #20285F">{{verti.libelle}}</h3>
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <v-row
+          align="end" >
+          <div class = esp></div><div class = esp></div><div class = esp></div>
+          <v-btn rounded="xl" to="/PageDrapeauxRouges">retour</v-btn>
+        </v-row>
+
+
       </v-col>
     </v-row>
   </v-container>

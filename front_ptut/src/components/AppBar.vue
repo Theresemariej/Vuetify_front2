@@ -21,7 +21,7 @@
           <v-list-item to="/PageDrapeauxRouges"> <!-- navigation vers la page "/" -->
             <v-list-item-title>Recommencer</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/"> <!-- navigation vers la page "/" -->
+          <v-list-item to="/depart"> <!-- navigation vers la page "/" -->
             <v-list-item-title>Arrêter</v-list-item-title>
           </v-list-item>
         </v-list>
@@ -32,5 +32,9 @@
 </template>
 
 <script setup>
-
 </script>
+
+<style>
+
+</style>
+
